@@ -26,19 +26,19 @@ html<!DOCTYPE html>
             align-items: center;
             position: relative;
             padding: 2rem;
-            background: #000;
-        }
-
-        .cityscape-bg {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 50%;
             background-image: url('cityscape.jpg');
             background-size: cover;
-            background-position: center bottom;
-            opacity: 0.7;
+            background-position: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
             z-index: 1;
         }
 
@@ -49,17 +49,6 @@ html<!DOCTYPE html>
             max-width: 1200px;
         }
 
-        .logo {
-            margin-bottom: 3rem;
-        }
-
-        .logo img {
-            max-width: 800px;
-            width: 100%;
-            height: auto;
-            filter: drop-shadow(0 10px 30px rgba(218, 165, 32, 0.4));
-        }
-
         .announcement {
             margin: 3rem auto;
         }
@@ -68,7 +57,7 @@ html<!DOCTYPE html>
             max-width: 700px;
             width: 100%;
             height: auto;
-            box-shadow: 0 0 40px rgba(218, 165, 32, 0.3);
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
         }
 
         .cta-button {
@@ -95,20 +84,17 @@ html<!DOCTYPE html>
 
         .future-novels {
             margin-top: 3rem;
-            opacity: 0.6;
+            opacity: 0.8;
         }
 
         .future-novels p {
             color: #DAA520;
             font-size: 1.1rem;
             letter-spacing: 0.1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
 
         @media (max-width: 768px) {
-            .logo img {
-                max-width: 90%;
-            }
-
             .announcement img {
                 max-width: 90%;
             }
@@ -122,12 +108,7 @@ html<!DOCTYPE html>
 </head>
 <body>
     <div class="hero">
-        <div class="cityscape-bg"></div>
         <div class="content">
-            <div class="logo">
-                <img src="logo.png" alt="After Dark Chronicles">
-            </div>
-
             <div class="announcement">
                 <img src="announcement.png" alt="The Darkness Begins with Strange Days">
             </div>
