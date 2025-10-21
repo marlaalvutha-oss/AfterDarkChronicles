@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Authors - After Dark Chronicles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);
+            color: #e0e0e0;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #DAA520;
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            color: #DAA520;
+            letter-spacing: 0.3rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            font-weight: bold;
+        }
+
+        .author {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+            align-items: start;
+        }
+
+        .author-photo {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+            border: 3px solid #DAA520;
+        }
+
+        .author-bio h2 {
+            color: #DAA520;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.1rem;
+        }
+
+        .author-bio p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: #d0d0d0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            margin: 0.5rem;
+            font-size: 1.2rem;
+            letter-spacing: 0.2rem;
+            text-decoration: none;
+            border: 2px solid;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-weight: bold;
+            background: transparent;
+            color: #DAA520;
+            border-color: #DAA520;
+        }
+
+        .button:hover {
+            background: rgba(218, 165, 32, 0.1);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 968px) {
+            .author {
+                grid-template-columns: 1fr;
+            }
+
+            .author-photo {
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            .header h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2rem;
+                letter-spacing: 0.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ABOUT THE AUTHORS</h1>
+        </div>
+
+        <!-- Jim's Section -->
+        <div class="author">
+            <div>
+                <img src="jim-photo.jpg" alt="Jim's Name" class="author-photo">
+            </div>
+            <div class="author-bio">
+                <h2>Jim's Name</h2>
+                <p>[Jim's bio will go here when he finishes writing it]</p>
+            </div>
+        </div>
+
+        <!-- Your Section -->
+        <div class="author">
+            <div>
+                <img src="brenda-photo.jpg" alt="Brenda Varian" class="author-photo">
+            </div>
+            <div class="author-bio">
+                <h2>Brenda Varian</h2>
+                <p>Brenda Varian was born in Maryland, migrated through Pennsylvania, and finally settled in Appomattox, Virginia—where she can see the mountains and lives in the town her Civil War buff father never got to visit.</p>
+<p>She's been writing since forever: newsletters for clubs, romance novels (RIP Moonlight and Magnolias, destroyed by ceiling collapse in the pre-cloud era), and stories published on websites she'd rather not mention in polite company. She writes urban fantasy and fantasy, DMs tabletop RPGs with alarming competence, and is currently venturing into humorous fantasy with Basil because Pratchett, Adams, and Asprin made it look easy.</p>
+<p>Her first love is fantasy—both light and epic—with a reading diet that includes Nancy Varian Berberick, Margaret Weis and Tracy Hickman, Jim Butcher, Paul Kidd, Piers Anthony, Mary Stanton, Donald McCaig, and William R. Forstchen. She also devours true crime (she's a white woman, after all), urban fantasy, survival fiction, and zombies—though she hated zombie anything until Basil introduced her to campy Dawn of the Dead-style films. Now she's confident she'd outlive him in the apocalypse. Her lifelong love of reading began with There's a Monster at the End of This Book, narrated in her mother's perfect Grover voice.</p>
+<p>When not writing or battling impostor syndrome, she paints model horses and RPG miniatures, cans vegetables for the inevitable zombie apocalypse, crochets things, and serves as co-author and best friend to her husband. They've been worldbuilding together for twenty years—these novels were just marinating.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="index.html" class="button">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
