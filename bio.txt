@@ -137,7 +137,10 @@
             </div>
             <div class="author-bio">
                 <h2>Brenda Varian</h2>
-                <p>[Your bio text goes here - paste it in when you're ready]</p>
+                <p>Brenda Varian was born in Maryland, migrated through Pennsylvania, and finally settled in Appomattox, Virginia—where she can see the mountains and lives in the town her Civil War buff father never got to visit.</p>
+<p>She's been writing since forever: newsletters for clubs, romance novels (RIP Moonlight and Magnolias, destroyed by ceiling collapse in the pre-cloud era), and stories published on websites she'd rather not mention in polite company. She writes urban fantasy and fantasy, DMs tabletop RPGs with alarming competence, and is currently venturing into humorous fantasy with Basil because Pratchett, Adams, and Asprin made it look easy.</p>
+<p>Her first love is fantasy—both light and epic—with a reading diet that includes Nancy Varian Berberick, Margaret Weis and Tracy Hickman, Jim Butcher, Paul Kidd, Piers Anthony, Mary Stanton, Donald McCaig, and William R. Forstchen. She also devours true crime (she's a white woman, after all), urban fantasy, survival fiction, and zombies—though she hated zombie anything until Basil introduced her to campy Dawn of the Dead-style films. Now she's confident she'd outlive him in the apocalypse. Her lifelong love of reading began with There's a Monster at the End of This Book, narrated in her mother's perfect Grover voice.</p>
+<p>When not writing or battling impostor syndrome, she paints model horses and RPG miniatures, cans vegetables for the inevitable zombie apocalypse, crochets things, and serves as co-author and best friend to her husband. They've been worldbuilding together for twenty years—these novels were just marinating.</p>
             </div>
         </div>
 
@@ -146,4 +149,5 @@
         </div>
     </div>
 </body>
+
 </html>
