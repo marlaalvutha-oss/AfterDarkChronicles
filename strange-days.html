@@ -76,20 +76,114 @@
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             color: #d0d0d0;
+            text-align: justify;
         }
 
-        .book-info p:first-of-type {
-            font-style: italic;
-            color: #DAA520;
-            font-size: 1.2rem;
+        .genre-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, #8B0000 0%, #DAA520 100%);
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            letter-spacing: 0.1rem;
+            margin-top: 1rem;
         }
 
-        .cta-section {
-            text-align: center;
-            margin: 3rem 0;
+        .purchase-section {
+            background: rgba(255, 255, 255, 0.05);
             padding: 2rem;
-            background: rgba(139, 0, 0, 0.1);
-            border: 2px solid #8B0000;
+            border-radius: 10px;
+            border: 2px solid #DAA520;
+            margin-bottom: 2rem;
+        }
+
+        .purchase-section h3 {
+            color: #DAA520;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            letter-spacing: 0.1rem;
+        }
+
+        .available-now {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .available-now h4 {
+            color: #8B0000;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15rem;
+        }
+
+        .buy-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #8B0000 0%, #DAA520 100%);
+            color: #fff;
+            padding: 1rem 2.5rem;
+            font-size: 1.3rem;
+            letter-spacing: 0.2rem;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(218, 165, 32, 0.4);
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 0.5rem;
+        }
+
+        .buy-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(218, 165, 32, 0.6);
+        }
+
+        .format-note {
+            font-size: 0.95rem;
+            color: #DAA520;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        .coming-soon {
+            margin-top: 2rem;
+        }
+
+        .coming-soon h4 {
+            color: #8B0000;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15rem;
+            text-align: center;
+        }
+
+        .coming-soon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .coming-soon-item {
+            background: rgba(139, 0, 0, 0.2);
+            padding: 1rem;
+            border-radius: 5px;
+            border: 1px solid rgba(218, 165, 32, 0.3);
+            text-align: center;
+        }
+
+        .coming-soon-item p {
+            margin: 0;
+            font-size: 1rem;
+            color: #DAA520;
+        }
+
+        .coming-soon-item .platform {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.3rem;
         }
 
         .button {
@@ -106,18 +200,6 @@
             font-weight: bold;
         }
 
-        .button-primary {
-            background: linear-gradient(135deg, #8B0000 0%, #DAA520 100%);
-            color: #fff;
-            border-color: #DAA520;
-            box-shadow: 0 5px 20px rgba(218, 165, 32, 0.4);
-        }
-
-        .button-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 30px rgba(218, 165, 32, 0.6);
-        }
-
         .button-secondary {
             background: transparent;
             color: #DAA520;
@@ -127,11 +209,6 @@
         .button-secondary:hover {
             background: rgba(218, 165, 32, 0.1);
             transform: translateY(-2px);
-        }
-
-        .coming-soon {
-            opacity: 0.7;
-            font-style: italic;
         }
 
         @media (max-width: 968px) {
@@ -146,6 +223,11 @@
 
             .header h1 {
                 font-size: 2.5rem;
+            }
+
+            .buy-button {
+                display: block;
+                margin: 0.5rem auto;
             }
         }
 
@@ -177,28 +259,73 @@
             <div class="book-info">
                 <h2>About the Book</h2>
                 
-                <p>When eleven-year-old Georgia Bell encountered Madame Endora's fortune-telling machine at a traveling carnival in Salem, the mechanical oracle warned: "Your horizons are bleak, and darkness fills the path before you. A storm is coming. Beware!"</p>
-
-                <p>Nearly two decades later, Georgia hosts After Dark, America's most listened-to late-night talk show—a program dedicated to exploring the paranormal, the unexplained, and the mysteries that haunt the shadows. Broadcasting from her ivory tower studio in 2005, she guides half a million listeners through tales of the strange and supernatural. But talking about the impossible is one thing. Living it is another.</p>
-
-                <p>When Georgia's roommate Norma goes missing after a date with a charming stranger named Rick, Georgia's world shifts from theory to terrifying reality. Rick isn't just dangerous—he's something that shouldn't exist. A 1950s greaser who hasn't aged in decades. A predator who calls his victims "Dolly" and leaves a trail of bodies in his wake. A vampire.</p>
-
-                <p>Thrust into an investigation that bridges her traumatic past and her uncertain present, Georgia must navigate between skeptical homicide detectives and an underworld of vampires who operate by ancient rules. And Detective Daniel Sullivan—the man investigating Norma's death—is someone from Georgia's past she never expected to see again.</p>
-
-                <p>Inspired by Coast-to-Coast AM, The X-Files, and The Night Stalker, Strange Days launches the After Dark Chronicles—a series following Georgia Bell's investigations into the darkness that exists just beyond the spotlight. For readers who love their urban fantasy grounded in reality, their horror steeped in humanity, and their heroines armed with nothing but courage, curiosity, and a microphone.</p>
+                <p>When Georgia Bell's roommate Norma is found brutally murdered—drained of blood through two precise puncture wounds to the neck—the radio host of paranormal talk show <em>After Dark</em> finds herself thrust into a nightmare that blurs the line between the supernatural mysteries she discusses on air and terrifying reality.</p>
+                
+                <p>Haunted by the memory of Norma's killer, a man named Rick Kaufman who whispered something to Georgia that she can't remember, she teams up with Detective Danny Sullivan to hunt for answers. But the more they uncover, the more impossible the truth becomes: puncture wounds with no sign of teeth marks, victims completely exsanguinated, and a suspect who seems to appear and disappear at will.</p>
+                
+                <p>When Georgia's investigation leads her into Boston's hidden vampire underworld, she discovers that the monsters from her late-night broadcasts are horrifyingly real—and they've been living among humans for centuries. Caught between the mortal police trying to solve a serial murder case and immortal creatures following their own ancient laws, Georgia must navigate a dangerous game where one wrong move could cost her life.</p>
+                
+                <p>As Kaufman's body count rises and his obsession with finding his long-lost "Dolly" intensifies, Georgia realizes she may be the key to stopping him.</p>
+                
+                <span class="genre-tag">Urban Fantasy • Thriller • Supernatural Horror</span>
             </div>
         </div>
 
-        <div class="cta-section">
-            <p class="coming-soon">Currently with editor - Available Soon</p>
-            <a href="#" class="button button-primary">Purchase (Coming Soon)</a>
+        <div class="purchase-section">
+            <h3>Get Your Copy</h3>
+            
+            <div class="available-now">
+                <h4>Available Now</h4>
+                <a href="https://www.amazon.com/dp/B0GD4KZ5C2" class="buy-button" target="_blank">Buy on Amazon</a>
+                <p class="format-note">Available in Hardcover, Softcover, and eBook</p>
+            </div>
+
+            <div class="coming-soon">
+                <h4>Coming Soon</h4>
+                <div class="coming-soon-list">
+                    <div class="coming-soon-item">
+                        <p class="platform">Ingram Spark</p>
+                        <p>Softcover Edition</p>
+                    </div>
+                    <div class="coming-soon-item">
+                        <p class="platform">Barnes & Noble</p>
+                        <p>eBook Format</p>
+                    </div>
+                    <div class="coming-soon-item">
+                        <p class="platform">Draft2Digital</p>
+                        <p>eBook Format</p>
+                    </div>
+                    <div class="coming-soon-item">
+                        <p class="platform">Kobo</p>
+                        <p>eBook Format</p>
+                    </div>
+                    <div class="coming-soon-item">
+                        <p class="platform">Google Play</p>
+                        <p>eBook Format</p>
+                    </div>
+                    <div class="coming-soon-item">
+                        <p class="platform">Gumroad</p>
+                        <p>eBook Format</p>
+                    </div>
+                    <div class="coming-soon-item">
+                        <p class="platform">DBK Etsy Shop</p>
+                        <p>Signed Copies - Late January 2026</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div style="text-align: center; margin-top: 3rem;">
+            <p style="color: #DAA520; font-style: italic; font-size: 1.1rem;">
+                Perfect for fans of The Dresden Files and True Blood
+            </p>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
             <a href="index.html" class="button button-secondary">← Back to Home</a>
         </div>
     </div>
 </body>
-
 </html>
+
 
